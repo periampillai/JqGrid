@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ibatorConfiguration PUBLIC "-//Apache Software Foundation//DTD Apache iBATIS Ibator Configuration 1.0//EN" "http://ibatis.apache.org/dtd/ibator-config_1_0.dtd" >
+<ibatorConfiguration >
+	<classPathEntry location="F:\WEB\libs\mysql.jar" />
+  <ibatorContext id="context1" >
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/test" userId="root" password="root" />
+    <javaModelGenerator targetPackage="com.mmss.model" targetProject="JQGrid" />
+    <sqlMapGenerator targetPackage="com.mmss.sqlmap" targetProject="JQGrid" />
+    <daoGenerator targetPackage="com.mmss.dao" targetProject="JQGrid" type="GENERIC-CI" />
+    <table tableName="usertable" >
+    
+    </table>
+  </ibatorContext>
+</ibatorConfiguration>
