@@ -47,10 +47,7 @@ public class TestAction extends ActionSupport
 			usertablesList = usertableDAO.selectByAllList();
 			
 			List<Usertable> personList = new ArrayList<Usertable>();
-			
-			
-			//----->>>http://www.sunilgulabani.com/2013/06/jqgrid-example-with-java.html
-			
+		
 			
 			usertablesList.forEach(item ->{
 				
