@@ -25,8 +25,6 @@ public class TestAction extends ActionSupport
 	
 	public String welcome() 
 	{
-		System.out.println("----welcome---");
-		
 		String outcome = ERROR;
 		
 		try
@@ -37,7 +35,6 @@ public class TestAction extends ActionSupport
 			e.printStackTrace();
 		}
 		
-		System.out.println("----welcome---"+outcome);
 		return outcome;
 	}
 	
