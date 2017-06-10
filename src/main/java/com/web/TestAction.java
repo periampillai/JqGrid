@@ -2,11 +2,8 @@ package com.web;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import javax.servlet.http.HttpServletResponse;
-
 import org.apache.struts2.ServletActionContext;
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.ibatis.sqlmap.client.SqlMapClient;
